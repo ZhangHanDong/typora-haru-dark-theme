@@ -1,14 +1,16 @@
 :root {
-    --main-color: rgba(128, 30, 255, 1);
-    --shadow-color : rgb(178, 80, 255);
+    --bg-color:  #545d43; /*change background*/
+    --text-color: #e7e77f; /*change text color*/
+    --main-color: rgb(119, 160, 53);
+    --shadow-color : rgb(30, 141, 41);
     --transplate-color : rgba(128, 30, 255, 0.1);
-    --dark-color : rgb(70, 18, 137);
-    --light-color : rgb(248, 242, 255);
-    --font-color : rgb(12, 12, 12);
+    --dark-color : rgb(17, 17, 17);
+    --light-color : rgb(231, 231, 236);
+    --font-color : rgb(228, 240, 198);
     --base-font : "Glow Sans", "Microsoft YaHei", serif;
     --title-font: "Roboto Slab", "Times", serif;
     --blockquote-font : "Times", "Roboto Slab", serif;
-    --blockquote-color : rgba(117, 117, 117, 0.9);
+    --blockquote-color : rgba(9, 8, 8, 0.9);
     --monospace: "Cascadia code", "Courier New", monospace; 
 
     /* --background : url("https://cdn.jsdelivr.net/gh/LSTM-Kirigaya/KImage/Img/2k.jpg"); */
@@ -66,6 +68,7 @@ html {
     transform: none;
     height: auto;
     caret-color: var(--main-color);
+    background-color: rgba(27, 26, 26, 0.9);
 }
 
 #write h1, h2, h3, h4, h5, h6 {
@@ -153,7 +156,7 @@ html {
     font-size: var(--quote-title-font-size);
     color: var(--blockquote-color);
     border-left: 6px solid var(--main-color);
-    background: var(--light-color);
+    background: rgb(5, 5, 5);
     border-radius : 0.5em;
     font-family: var(--blockquote-font);
 }
@@ -242,8 +245,9 @@ html {
 	-webkit-overflow-scrolling: touch;
 	/* box-shadow: 0 0 6px 2px rgba(151, 151, 151, 0.9); */
     /* border-top: rgb(51, 51, 51) solid 35px; */
-    border-top: rgb(244, 244, 244) solid 35px;
-    background-color: rgb(244, 244, 244);
+    border-top: #dea584 solid 35px;
+    background-color: #dea584;
+    color: #171811;
 }
 
 
@@ -273,16 +277,16 @@ code {
     padding: 4px 6px;
     color: #666363;
     white-space: pre-wrap;
-    background: var(--light-color);
+    background: rgb(214, 237, 162);
     border-radius: 8px;
 }
 
 #write blockquote code {
     margin: 0 2px;
     padding: 4px 6px;
-    color: white;
+    color: rgb(141, 135, 135);
     white-space: pre-wrap;
-    background: var(--main-color);
+    background: rgb(214, 237, 162);
     border-radius: 8px;
 }
 
@@ -342,7 +346,7 @@ pre.md-meta-block {
 {
     background-color: var(--shadow-color);
     font-size: 20px;
-    color: white;
+    color: rgb(30, 28, 28);
     font-weight: bolder;
     width: 100px;
     text-align: center;
@@ -351,7 +355,7 @@ pre.md-meta-block {
 }
 table tr:nth-child(odd)
 {
-    background: white;
+    background: rgb(50, 49, 49);
 }
 table tr:nth-child(even)
 {
@@ -359,7 +363,7 @@ table tr:nth-child(even)
 }
 table td:hover {
   background-color: var(--shadow-color) !important;
-  color: white !important;
+  color: rgb(6, 6, 6) !important;
   box-shadow: 0 0 10px 5px var(--shadow-color);
   transition: all 0.3s linear;
   -moz-transition: all 0.3s linear;
@@ -1002,5 +1006,5 @@ input:not([type=range]):not([type=color]):focus {
 
 .label-input-group .row:hover {
     color: black;
-    background-color: white;
+    background-color: rgb(24, 23, 23);
 }

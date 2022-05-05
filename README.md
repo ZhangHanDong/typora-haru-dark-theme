@@ -11,6 +11,8 @@ typora-root-url: ../../
 typora-copy-images-to: ../../media/theme/haru
 ---
 
+魔改 haru theme 使其支持dark模式。
+
 > Designed and tested on Windows11 & Ubuntu18.04. Not fully tested, but should work for MacOS.
 
 # Haru
